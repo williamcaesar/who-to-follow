@@ -107,4 +107,4 @@ venv.bak/
 
 credentials.json
 .idea
-
+out.json
