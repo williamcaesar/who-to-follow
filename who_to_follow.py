@@ -26,7 +26,7 @@ def show_tweet(tweet_obj, identation=0):
     ident = '|{}'.format(' '*identation)
     print('-' * 20)
     print(ident, tweet_obj.text)
-    analysis = TextBlob(tweet.text)
+    analysis = TextBlob(tweet_obj.text)
     print(ident, analysis.sentiment)
     return {'sentiment': analysis.sentiment, 'retweets': tweet_obj.retweeters}
 
