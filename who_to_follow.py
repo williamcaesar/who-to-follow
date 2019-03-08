@@ -60,7 +60,7 @@ def list_trends(place):
         for key in trend['trends']:
             print(key)
             names.append(key['name'])
-        print('-'*20)
+        print('-' * 20)
     return names
 
 
