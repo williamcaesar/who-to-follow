@@ -1,2 +1,2 @@
-tweepy
+tweepy==4.6.0
 textblob
